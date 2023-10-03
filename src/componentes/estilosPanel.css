@@ -1,0 +1,21 @@
+.panel-content ul {
+    list-style-type: square; 
+    padding: 20px; 
+    color:blueviolet;
+}
+
+.panel-content {
+    margin-top: 10px;
+}
+
+.panel button {
+    background-color: blueviolet;
+    color: white; 
+    margin-top: 10px; 
+}
+
+.panel {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin: 10px;
+}
