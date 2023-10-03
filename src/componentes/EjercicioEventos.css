@@ -1,0 +1,19 @@
+.personalizar-contenido {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .personalizar-contenido.hovered {
+    background-color: lightblue;
+  }
+  
+  .personalizar-contenido.focused {
+    outline: 2px solid blue;
+  }
