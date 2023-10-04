@@ -5,7 +5,7 @@ import Loader from './componentes/practicasClase/Loader';
 import {useState} from 'react'
 import RegistroFormulario from './componentes/practicasCasa/Formulario'
 import ScrollComponent from './componentes/practicasClase/Scroll';
-
+import Countdown from './componentes/practicasClase/Countdown';
 /*
 function App() {
   return (
@@ -51,11 +51,23 @@ function App () {
   )
 } 
 */
-
+/*
 function App () {
   return (
     <div className="App">
       <ScrollComponent />
+    </div>
+  )
+}
+*/
+function App () {
+  const handleCountdownFinish = () => {
+    alert ("La cuenta atrás ha finalizado") // se realiza cuando finaliza 
+  }
+  return (
+    <div className="App">
+      <h1> Aplicación de cuenta atrás</h1>
+      <Countdown onCountdownFinish={handleCountdownFinish} /> 
     </div>
   )
 }
