@@ -3,6 +3,7 @@ import ListaDinamica from './componentes/ListaDinamica'
 import CapturarEvento from './componentes/EjercicioEventos';
 import Loader from './componentes/practicasClase/Loader';
 import {useState} from 'react'
+import RegistroFormulario from './componentes/practicasCasa/Formulario'
 
 /*
 function App() {
@@ -13,7 +14,7 @@ function App() {
   )
 }
 */
-
+/*
 function App () {
   const [loading, setLoading] = useState(false);
 
@@ -38,6 +39,15 @@ function App () {
     </div>
   )
 }
+*/ 
 
+function App () {
+  return (
+    <div className="App">
+      <h1>Formulario de registro</h1>
+      <RegistroFormulario />
+    </div>
+  )
+}
 
 export default App;
