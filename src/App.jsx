@@ -4,6 +4,7 @@ import CapturarEvento from './componentes/EjercicioEventos';
 import Loader from './componentes/practicasClase/Loader';
 import {useState} from 'react'
 import RegistroFormulario from './componentes/practicasCasa/Formulario'
+import ScrollComponent from './componentes/practicasClase/Scroll';
 
 /*
 function App() {
@@ -40,12 +41,21 @@ function App () {
   )
 }
 */ 
-
+/*
 function App () {
   return (
     <div className="App">
       <h1>Formulario de registro</h1>
       <RegistroFormulario />
+    </div>
+  )
+} 
+*/
+
+function App () {
+  return (
+    <div className="App">
+      <ScrollComponent />
     </div>
   )
 }
