@@ -1,0 +1,37 @@
+.Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: red
+  }
+  
+  .rutas-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;   
+}
+  
+
+  .rutas-home a {
+    text-decoration: none;
+    color: #333; 
+    margin-bottom: 10px; 
+    font-weight: normal; 
+  }
+  .rutas-home a.active {
+    font-weight: bold;
+  }
+  
+  .content-container {
+    flex: 1; /* El contenedor de la derecha se expandirá para llenar el espacio restante */
+    border: 1px solid #ccc; 
+    padding: 10px;
+  }
+  
